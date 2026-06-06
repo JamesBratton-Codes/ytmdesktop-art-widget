@@ -4,25 +4,15 @@ Pure album art, zero UI. A completely borderless, resizable companion widget for
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-*(User: Insert your "Hero Shot" here)*
-![Art Mode Preview](https://via.placeholder.com/400?text=Hero+Shot+Placeholder)
+### Pure Art Mode
+Experience your music with a clean, high-resolution album art focus. Perfect for second monitors and aesthetic gaming setups.
+![Art Mode Preview](images/hero.png)
 
-*(User: Insert your "Hover State" shot here)*
-![Hover Preview](https://via.placeholder.com/400?text=Hover+State+Placeholder)
-
----
-
-## ✨ Features
-
-- **Pure Immersive Look:** Displays only the high-res album art with zero window clutter or title bars.
-- **Lofi Aesthetic:** Retro monospace typography, all-lowercase text, and soft rounded corners.
-- **Smart Resizing:** Drag any corner to resize; the window automatically stays a perfect square to keep the art crisp.
-- **Invisible Execution:** Includes a silent launcher so the PowerShell terminal never distracts you or shows in your taskbar.
-- **Auto-Hide UI:** The Close (X) button and resize grip are invisible until you hover your mouse over them.
-- **Live Progress:** A paper-thin minimalist bar at the bottom tracks your song's duration.
-- **High Performance:** Lightweight WPF/PowerShell architecture with smart API polling to avoid rate limits.
+### Distraction-Free UI
+The close button and resize grip remain hidden until you hover your mouse, ensuring zero clutter while you listen.
+![Hover Preview](images/hover.png)
 
 ---
 
@@ -30,7 +20,8 @@ Pure album art, zero UI. A completely borderless, resizable companion widget for
 
 - **OS:** Windows 10 or Windows 11.
 - **App:** [YouTube Music Desktop App (NovusTheory/ytmdesktop)](https://ytmdesktop.app/) v2.0 or higher.
-- **Integration:** You must enable the **Companion Server** in your app settings (see below).
+- **Integration:** You must enable the **Companion Server** in your app settings:
+
 
 ---
 
@@ -42,11 +33,14 @@ Pure album art, zero UI. A completely borderless, resizable companion widget for
    - Toggle **Companion Server** to **ON**.
    - Toggle **Enable Companion Authorization** to **ON**.
 
-2. **Launch the Widget:**
+![Enable Settings](images/enable.png)   
+
+1. **Launch the Widget:**
    - Download this repository folder.
    - Double-click **`YTM-Art-Widget-Launcher.vbs`**.
-   - A terminal may blink for a split second, then vanish.
-   - **Check your YouTube Music App:** A popup will appear asking to authorize "ArtWidget." Click **Approve**.
+   - **Check your YouTube Music App:** A popup will appear asking to authorize "ArtWidget." Click **Approve**. Once connected, it will appear in your authorized list:
+
+![Companion Connected](images/companion.png)
 
 3. **Enjoy!**
    - The art will appear within a few seconds. 
